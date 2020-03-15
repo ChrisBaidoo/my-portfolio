@@ -2636,12 +2636,19 @@ input, select, textarea {
 				display:flex;
 			}
 		.image.main {
-			/* display: block; */
+			display: flex;
 			/* margin: 4rem 0; */
+			flex-direction: column;
+			flex-wrap: wrap;
+
 
 			width: 50%;
-				justify-content: space-between;
-			/* flex-direction: column; */
+
+		}
+
+		.icon-image{
+			justify-content: center;
+
 
 		}
 
