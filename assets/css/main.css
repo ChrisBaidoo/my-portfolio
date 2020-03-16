@@ -2640,14 +2640,14 @@ input, select, textarea {
 			/* margin: 4rem 0; */
 			flex-direction: column;
 			flex-wrap: wrap;
-
-
 			width: 50%;
 
 		}
 
 		.icon-image{
 			justify-content: center;
+			width: 40%;
+
 
 
 		}
@@ -3260,9 +3260,9 @@ input, select, textarea {
 	}
 	
 
-	/* .icons{
-		width: 50%;
-	} */
+	.icons{
+		width: 10%;
+	}
 
 	.heading{
 		text-align: center;
