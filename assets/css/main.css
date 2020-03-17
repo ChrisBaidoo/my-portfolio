@@ -2632,23 +2632,23 @@ input, select, textarea {
 				width: 100%;
 			}
 
-			.row{
-				display:flex;
-			}
-		.image.main {
-			display: flex;
-			/* margin: 4rem 0; */
-			flex-direction: column;
-			flex-wrap: wrap;
-			width: 50%;
+		
 
-		}
+			.icons-container{
+				display: flex;
+				justify-content: flex-end;
+				text-align: center;
+			}
+
+			.icon-text{
+				margin: 5%;
+			}
+
+	
 
 		.icon-image{
+			width: 50%;
 			justify-content: center;
-			width: 40%;
-
-
 
 		}
 
