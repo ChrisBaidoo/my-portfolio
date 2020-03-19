@@ -2642,18 +2642,16 @@ input, select, textarea {
 			
 			
 		
-				align-items: stretch;
+				align-items: flex-start;
 				text-align: center;
 				flex-direction: row;
 				flex-wrap: wrap;
-				flex-grow: 1;
 
-				width: 100%;
-				padding: 0;
+		
 			}
 
 			.icon-text{
-				/* margin: 5%; */
+				align-items: flex-end;
 			}
 
 	
@@ -2703,6 +2701,11 @@ input, select, textarea {
 			-webkit-transform: scale(1.05);
 			-ms-transform: scale(1.05);
 			transform: scale(1.05);
+		}
+
+		.profile-pic{
+			width: 70%;
+			text-align: center;
 		}
 
 /* Actions */
