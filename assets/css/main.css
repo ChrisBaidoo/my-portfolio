@@ -2636,29 +2636,29 @@ input, select, textarea {
 
 			.icons-container{
 				display: flex;
-				/* justify-content: space-between; */
-				/* text-align: center; */
-				/* flex-wrap: wrap; */
-			
-			
-		
-				align-items: flex-start;
+				align-items: flex-end;
 				text-align: center;
 				flex-direction: row;
 				flex-wrap: wrap;
+				vertical-align: text-bottom;
 
-		
 			}
 
+	
+
 			.icon-text{
-				align-items: flex-end;
+				margin-top: 20%;	
 			}
 
 	
 
 		.icon-image{
-			width: 50%;
 			justify-content: center;
+			position: relative;
+			width: 50%;
+			vertical-align: text-bottom;
+
+			/* height: 70%; */
 
 		}
 
