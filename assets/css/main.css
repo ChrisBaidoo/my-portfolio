@@ -2644,10 +2644,13 @@ input, select, textarea {
 
 			}
 
-	
+	.icon-heading{
+		margin-bottom: 10%;
+	}
 
 			.icon-text{
-				margin-top: 20%;	
+				margin-top: 10%;	
+				margin-bottom: 20%;
 			}
 
 	
@@ -2706,6 +2709,7 @@ input, select, textarea {
 		.profile-pic{
 			width: 70%;
 			text-align: center;
+			border-radius: 50%;
 		}
 
 		/* ul {
